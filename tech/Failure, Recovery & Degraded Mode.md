@@ -130,7 +130,7 @@ Ekho must explicitly consider failure of:
 Deployment/frontend
 Supabase database
 Supabase Auth
-Supabase Storage
+Cloudflare R2
 Google OAuth
 Apple OAuth
 SMTP/email provider
@@ -292,7 +292,7 @@ Therefore, as an architectural inference:
 Maintain point-in-time/historical recovery copies separately.
 ---
 # 25. Storage backup warning
-Supabase database backups **do not include the actual files stored through Supabase Storage**.
+Supabase database backups **do not include the actual files stored in Cloudflare R2**.
 This is critical for Ekho because private applicant documents may live in Storage.
 ---
 # 26. Document durability architecture
@@ -300,7 +300,7 @@ Before Ekho treats document storage as durable:
 ```text
 user upload
 ↓
-Supabase Storage
+Cloudflare R2
 ↓
 upload confirmed
 ↓
@@ -548,7 +548,7 @@ one browser session
 for access to:
 * Supabase;
 * GitHub;
-* Vercel/deployment provider;
+* Cloudflare/deployment provider;
 * DNS/domain registrar.
 Maintain secure MFA recovery methods.
 Supabase's production checklist also recommends protecting administrative accounts with MFA and avoiding a single inaccessible owner as organizations grow.
@@ -592,8 +592,8 @@ rollback deployment
 ```
 before trying to debug it live while users remain affected.
 ---
-# 50. Vercel rollback
-If Ekho uses Vercel production deployments, current Vercel functionality supports rollback to a previously served production deployment.
+# 50. Cloudflare Workers rollback
+Cloudflare Workers production deployments must be rolled back to a previously served stable Worker version.
 Document:
 ```text
 last known good deployment
@@ -818,7 +818,7 @@ Public university research may remain available.
 Authenticated/private functionality must remain protected and unavailable until identity can again be validated safely.
 ---
 # 71. Storage unavailable
-If Supabase Storage is unavailable:
+If Cloudflare R2 is unavailable:
 keep working:
 ```text
 university research
@@ -2066,7 +2066,7 @@ Failure, Recovery & Degraded Mode v1 is complete when:
 * database backup strategy exists;
 * production RPO is supported by real infrastructure;
 * independent database backup exists;
-* Supabase Storage files are separately protected;
+* Cloudflare R2 files are separately protected;
 * document backup lag is monitored;
 * backups are encrypted/separated;
 * restore procedure exists;
@@ -2152,4 +2152,4 @@ This specification was checked against a broader source set than the previous do
 17. **Supabase backup/restore documentation** — separate Storage-object restoration requirements.
 18. **Supabase Auth signing-key/session documentation** — session/key behavior relevant after security/recovery events.
 19. **Supabase production checklist** — production security, MFA, backups/PITR and operational readiness.
-20. **Vercel current 2026 Instant Rollback documentation** — application deployment rollback where Ekho uses Vercel.
+20. **Cloudflare Workers rollback documentation** — application deployment rollback to a previously deployed Worker version.

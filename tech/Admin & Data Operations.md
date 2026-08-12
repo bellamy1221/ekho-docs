@@ -1,7 +1,7 @@
 # Admin & Data Operations v1
 **Status:** LOCKED
 **Scope:** internal administration, review, publication and maintenance of Ekho institutional data
-**Stack:** Next.js + Supabase Auth + PostgreSQL + Supabase Storage where required
+**Stack:** Next.js + Supabase Auth + PostgreSQL + Cloudflare R2 where required
 **Depends on:** Data Standard, Data Architecture, Data Pipeline, Import & Ingestion, Security & Privacy, Auth & Account Lifecycle
 **Research verified:** 12 August 2026
 ---

@@ -1117,12 +1117,11 @@ Ekho должен выигрывать:
 * Не тратить тысячи на paid ads до доказанного retention.
 * Главная стоимость сейчас — время, data collection и execution.
 Возможный lean stack:
-* Vercel.
+* Cloudflare Workers / OpenNext.
 * Supabase.
 * PostHog.
 * Sentry.
 * Resend.
-* Cloudflare.
 * Figma free.
 * Obsidian.
 * GitHub.

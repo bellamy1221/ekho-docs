@@ -488,7 +488,7 @@ Recommended order:
 8. invalidate refresh sessions;
 9. clear local client data;
 10. record non-sensitive completion audit event.
-Supabase cannot delete an Auth user while that user still owns Supabase Storage objects, so Storage ownership must be handled first.
+Before deleting a Supabase Auth user, handle the user's private Cloudflare R2 objects and their Ekho metadata according to the document-deletion policy.
 ---
 # 36. Supabase user deletion
 Final Auth deletion must happen from trusted server code with:

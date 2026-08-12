@@ -231,13 +231,11 @@ feat/university-search
 
 Ты можешь открыть его и визуально проверить изменение до merge.
 
-Для Next.js Vercel нативно создаёт deployments из Git branches и Preview environments отдельно от production. ([Vercel](https://vercel.com/docs/git?utm_source=chatgpt.com "Deploying Git Repositories with Vercel"))
+Для Ekho каждый PR должен получать изолированный preview deployment через Cloudflare Workers / OpenNext, отдельно от production и без production secrets.
 
 ### Поэтому для Ekho v1
 
-**Vercel — Strong choice для deployment layer.**
-
-Особенно потому что уже выбрана архитектура Next.js App Router.
+**Cloudflare Workers / OpenNext — основной deployment layer.**
 
 ---
 
@@ -281,7 +279,7 @@ Promote to Production
 
 И production получает **тот же проверенный commit/build**, а не новую сборку с неизвестными отличиями.
 
-Vercel поддерживает promotion существующего deployment в production. ([Vercel](https://vercel.com/docs/deployments/promoting-a-deployment?utm_source=chatgpt.com "Promoting Deployments"))
+Production должен собираться и деплоиться из того же проверенного commit, без новых изменений между staging и production.
 
 ---
 

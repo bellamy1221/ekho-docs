@@ -1,7 +1,7 @@
 # API & Error Contract v1
 **Status:** LOCKED
 **Scope:** HTTP APIs, server boundaries, request/response contracts, errors, validation, pagination, idempotency, concurrency, caching, retries and API security
-**Stack:** Next.js + TypeScript + Supabase/PostgreSQL/PostgREST
+**Stack:** Next.js + TypeScript + Drizzle ORM + Supabase PostgreSQL/Auth; direct Supabase/PostgREST access only where this contract explicitly permits it
 **Depends on:** Data Standard, Data Architecture, Security & Privacy, Auth & Account Lifecycle, Import & Ingestion, Admin & Data Operations, Observability
 **Research verified:** 12 August 2026
 ---

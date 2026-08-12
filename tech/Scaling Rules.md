@@ -371,7 +371,7 @@ Supabase официально рекомендует transaction pooling для:
 # 19. Supavisor
 При Supabase serverless architecture:
 ```text
-Vercel/serverless
+Cloudflare Workers / OpenNext
 ↓
 Supavisor transaction mode
 ↓
@@ -843,8 +843,7 @@ Queue нужна, если operation:
 * может быть processed later;
 * может резко spike;
 * должна decouple producer и consumer.
-Vercel описывает queues именно как механизм decoupling request handling от background processing и absorbing traffic spikes.
-Supabase Queues также предназначены для Background Tasks.
+Для Ekho queues нужны именно для decoupling request handling от background processing и absorbing traffic spikes. Используется Cloudflare Workers queue/workflow mechanism, когда он соответствует documented trigger; Supabase Queues остаются допустимой provider capability, но не являются отдельным launch default.
 ---
 # 55. Ekho queue candidates
 С самого начала подходят для queue:
@@ -952,7 +951,7 @@ serverless worker/function
 * serverless limits становятся реальным constraint.
 ---
 # 64. Serverless function capacity
-Современные Vercel Functions автоматически масштабируются и Fluid Compute поддерживает высокую concurrency; на текущей документации Hobby/Pro указано autoscaling до 30,000 concurrent executions для соответствующей модели.
+Cloudflare Workers / OpenNext capacity и execution limits должны оцениваться по текущему plan/configuration и реальному измеренному workload.
 Поэтому:
 ```text
 we have 10k users
@@ -960,7 +959,7 @@ we have 10k users
 не является причиной писать отдельный backend.
 ---
 # 65. Function duration
-Vercel Functions имеют explicit execution duration limits, которые зависят от configuration/plan.
+Cloudflare Workers / OpenNext имеют execution limits, зависящие от configuration/plan.
 Если workload регулярно приближается к function duration limits:
 не увеличивать timeout бесконечно.
 Рассмотреть:
@@ -2204,7 +2203,7 @@ Postgres
 2. Supabase official scaling guidance, January 2026: sustained CPU >70% означает hot database; ~80%+ read workload — candidate для replicas; write-heavy workloads масштабируются primary compute; сначала требуется query/index diagnostics.
 3. Supabase official connection documentation: serverless/edge traffic должен использовать transaction-mode pooling; connection pool должен оставлять capacity для остальных database/platform workloads.
 4. Supabase official Read Replica documentation: replicas предназначены для read capacity, geographic latency reduction и isolation read workloads.
-5. Supabase official Queues documentation: queues предназначены для durable background tasks; Vercel Queues отдельно описывает queues как средство decoupling и absorbing spikes.
+5. Supabase official Queues documentation: queues предназначены для durable background tasks; для Ekho Cloudflare queue/workflow mechanisms используются только при documented trigger.
 6. Redis official documentation: cache hit ratio, evictions, expiration и memory pressure являются основными cache-health signals; eviction policy управляет поведением при memory limits.
-7. Vercel current documentation: Functions используют automatic concurrency scaling; background processing может быть вынесено в queues/workflows/workers без необходимости превращать весь application backend в отдельный сервер.
+7. Cloudflare Workers/OpenNext runtime: background processing может быть вынесено в queues/workflows/workers без необходимости превращать весь application backend в отдельный сервер.
 8. Supabase official analytics scaling guidance: heavy historical analytical workloads, регулярно сканирующие миллионы строк, являются поводом отделять analytical workload от transactional Postgres.
