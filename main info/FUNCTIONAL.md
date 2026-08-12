@@ -1,0 +1,474 @@
+## UNIVERSITY INTELLIGENCE — CORE
+- [ ]  Глобальная база университетов
+- [ ]  База программ / majors / degrees
+- [ ]  Страница каждого университета
+- [ ]  Страница каждой программы
+- [ ]  Страна
+- [ ]  Город
+- [ ]  Кампус
+- [ ]  Тип университета
+- [ ]  Public / Private
+- [ ]  Undergraduate / Graduate / PhD
+- [ ]  Официальный сайт
+- [ ]  Application platform
+- [ ]  Application fee
+- [ ]  Fee waiver
+- [ ]  Intake / semester
+- [ ]  Application rounds
+- [ ]  Deadlines
+- [ ]  Rolling admission
+- [ ]  Entry requirements
+- [ ]  Qualification requirements
+- [ ]  Country-specific requirements
+- [ ]  GPA requirements
+- [ ]  Historical GPA ranges
+- [ ]  SAT requirements
+- [ ]  ACT requirements
+- [ ]  SAT / ACT ranges
+- [ ]  Test-optional status
+- [ ]  DET requirements
+- [ ]  IELTS requirements
+- [ ]  TOEFL requirements
+- [ ]  English-test exemptions
+- [ ]  Transcript requirements
+- [ ]  Transcript translation rules
+- [ ]  Recommendation requirements
+- [ ]  Essay requirements
+- [ ]  Interview requirements
+- [ ]  Portfolio requirements
+- [ ]  Additional documents
+- [ ]  International applicant requirements
+- [ ]  Transfer requirements
+- [ ]  Tuition
+- [ ]  Estimated living costs
+- [ ]  Housing costs
+- [ ]  Total estimated cost
+- [ ]  Scholarships
+- [ ]  Merit aid
+- [ ]  Need-based aid
+- [ ]  International aid eligibility
+- [ ]  Financial-aid deadlines
+- [ ]  CSS Profile requirement
+- [ ]  Need-blind / need-aware status
+- [ ]  Acceptance rate
+- [ ]  Historical acceptance rates
+- [ ]  Application volume
+- [ ]  Enrollment
+- [ ]  Student demographics
+- [ ]  International student percentage
+- [ ]  Student-to-faculty ratio
+- [ ]  Graduation rate
+- [ ]  Rankings с указанием источника
+- [ ]  Historical admissions statistics
+- [ ]  Historical deadlines
+- [ ]  Historical tuition
+- [ ]  University contacts
+- [ ]  Admissions contacts
+- [ ]  Official source для каждого critical field
+- [ ]  Last verified date
+- [ ]  Application cycle для каждого значения
+- [ ]  Previous-year data state
+- [ ]  Unknown state
+- [ ]  Conflicting-data state
+- [ ]  Report incorrect information
+- [ ]  Request full university profile
+## SEARCH & DISCOVERY
+- [ ]  Global search
+- [ ]  Search by university
+- [ ]  Search by program
+- [ ]  Search by country
+- [ ]  Search by city
+- [ ]  Search by major
+- [ ]  Search by degree
+- [ ]  Search by qualification
+- [ ]  Search by application platform
+- [ ]  Search by tuition
+- [ ]  Search by financial aid
+- [ ]  Search by scholarship availability
+- [ ]  Search by SAT
+- [ ]  Search by GPA
+- [ ]  Search by English test
+- [ ]  Search by deadline
+- [ ]  Search by acceptance rate
+- [ ]  Filters
+- [ ]  Sort
+- [ ]  Recently viewed universities
+- [ ]  Related universities
+- [ ]  Similar universities
+- [ ]  Popular universities
+- [ ]  Universities trending among Ekho users
+- [ ]  Recently updated universities
+## MAP
+- [ ]  Airbnb-style global university map
+- [ ]  University pins
+- [ ]  Map + list split view
+- [ ]  Search area on map
+- [ ]  Filter map by country
+- [ ]  Filter map by tuition
+- [ ]  Filter map by program
+- [ ]  Filter map by acceptance rate
+- [ ]  Filter map by financial aid
+- [ ]  Save university directly from map
+- [ ]  Open compact university card from map
+- [ ]  City-level university exploration
+- [ ]  Explore universities near another university
+## SAVE & SHORTLIST
+- [ ]  Save university
+- [ ]  Remove university
+- [ ]  My Universities
+- [ ]  Multiple custom lists
+- [ ]  Dream / Target / Safety labels
+- [ ]  Interested / Applying / Applied / Accepted / Rejected statuses
+- [ ]  Personal notes
+- [ ]  Personal tags
+- [ ]  Personal rating
+- [ ]  Pin favorite universities
+- [ ]  Recently viewed
+- [ ]  Saved search
+## COMPARE
+- [ ]  Compare universities
+- [ ]  Compare 2–4 universities
+- [ ]  Compare tuition
+- [ ]  Compare requirements
+- [ ]  Compare deadlines
+- [ ]  Compare tests
+- [ ]  Compare aid
+- [ ]  Compare historical admissions data
+- [ ]  Highlight differences
+- [ ]  Share comparison by link
+- [ ]  Export comparison
+## LOW-COST VIRAL FEATURES
+- [ ]  Shareable university card
+- [ ]  Shareable university comparison
+- [ ]  Shareable shortlist
+- [ ]  “My University List” public link
+- [ ]  “Where I’m Applying” card
+- [ ]  Application deadline countdown
+- [ ]  University random discovery / Explore
+- [ ]  “Universities similar to X”
+- [ ]  “Best universities matching these filters”
+- [ ]  Shareable admissions checklist
+- [ ]  Shareable country university map
+- [ ]  Embeddable Ekho university card
+## FREE TOOLS
+- [ ]  GPA converter
+- [ ]  Grade-system converter
+- [ ]  SAT requirement checker
+- [ ]  DET requirement checker
+- [ ]  IELTS requirement checker
+- [ ]  TOEFL requirement checker
+- [ ]  Deadline finder
+- [ ]  Application fee calculator
+- [ ]  Cost-of-attendance calculator
+- [ ]  Scholarship finder
+- [ ]  Financial-aid eligibility checker
+- [ ]  University compare tool
+- [ ]  Reach / Target / Safety organizer без fake acceptance probabilities
+- [ ]  Essay word counter
+- [ ]  Application checklist generator
+- [ ]  Country qualification checker
+- [ ]  Transcript requirement checker
+## ACCOUNT
+- [ ]  Очень короткий signup
+- [ ]  Google login
+- [ ]  Email login
+- [ ]  Skip onboarding
+- [ ]  Progressive profiling
+- [ ]  Country / nationality
+- [ ]  Education system
+- [ ]  Current qualification
+- [ ]  Graduation year
+- [ ]  GPA
+- [ ]  Tests
+- [ ]  Target degree
+- [ ]  Target countries
+- [ ]  Profile editing
+- [ ]  Privacy controls
+- [ ]  Account deletion
+## REQUIREMENTS FOR ME
+- [ ]  Requirements personalized by nationality
+- [ ]  Requirements personalized by education system
+- [ ]  Requirements personalized by qualification
+- [ ]  Requirements personalized by program
+- [ ]  Requirements personalized by application round
+- [ ]  Requirements personalized by GPA
+- [ ]  Requirements personalized by test scores
+- [ ]  Eligible state
+- [ ]  Satisfied state
+- [ ]  Missing state
+- [ ]  Optional state
+- [ ]  Action Required state
+- [ ]  Unknown state
+- [ ]  Explanation why requirement applies
+- [ ]  Official source
+- [ ]  Last verified
+- [ ]  Personal requirements checklist
+- [ ]  Compare my profile to requirements
+## MY APPLICATIONS
+- [ ]  Add application
+- [ ]  Application status
+- [ ]  Application round
+- [ ]  Deadline
+- [ ]  Progress
+- [ ]  Requirements checklist
+- [ ]  Tasks
+- [ ]  Documents
+- [ ]  Essays
+- [ ]  Tests
+- [ ]  Recommendations
+- [ ]  Notes
+- [ ]  Financial-aid tasks
+- [ ]  Application fee
+- [ ]  Submission status
+- [ ]  Portal status
+- [ ]  Decision status
+- [ ]  Timeline
+- [ ]  Next Action
+- [ ]  Upcoming deadlines
+- [ ]  Missing items
+- [ ]  Completed items
+- [ ]  Calendar view
+## DOCUMENTS
+- [ ]  Document checklist
+- [ ]  Mark document ready
+- [ ]  Mark document submitted
+- [ ]  Track transcript
+- [ ]  Track translated transcript
+- [ ]  Track recommendations
+- [ ]  Track test reports
+- [ ]  Track financial-aid forms
+- [ ]  Store metadata without requiring file upload
+- [ ]  Optional secure file upload later
+## DEADLINES & CALENDAR
+- [ ]  Unified deadline calendar
+- [ ]  Application deadlines
+- [ ]  Test deadlines
+- [ ]  Scholarship deadlines
+- [ ]  Aid deadlines
+- [ ]  Document deadlines
+- [ ]  Interview dates
+- [ ]  Personal deadlines
+- [ ]  Calendar export
+- [ ]  Google Calendar export
+- [ ]  iCal export
+- [ ]  Reminder settings
+## LIVE ADMISSIONS UPDATES
+- [ ]  Track important university pages
+- [ ]  Detect changed deadline
+- [ ]  Detect changed test policy
+- [ ]  Detect changed requirement
+- [ ]  Detect changed tuition
+- [ ]  Detect changed aid policy
+- [ ]  Old value
+- [ ]  New value
+- [ ]  Date detected
+- [ ]  Who is affected
+- [ ]  Official source
+- [ ]  Update history
+- [ ]  Follow university
+- [ ]  Notification when followed university changes
+- [ ]  Email updates
+## COMMON APP / APPLICATION PLATFORM LAYER
+- [ ]  Show whether university accepts Common App
+- [ ]  Show whether university uses UCAS
+- [ ]  Show whether university uses another platform
+- [ ]  Direct official application link
+- [ ]  Mark application submitted manually
+- [ ]  Map Ekho requirements to application platform requirements
+- [ ]  Explain what is done inside Common App
+- [ ]  Explain what must be done outside Common App
+- [ ]  Prepare architecture for future Common App partnership/API
+- [ ]  Prepare architecture for other admissions-platform integrations
+## STUDENT PROFILES — LATER
+- [ ]  Public student profile
+- [ ]  Verified Student badge
+- [ ]  Verify current university enrollment
+- [ ]  Verify past university enrollment
+- [ ]  University listed on profile
+- [ ]  Degree
+- [ ]  Major
+- [ ]  Graduation year
+- [ ]  Accepted universities
+- [ ]  Applicant journey
+- [ ]  Bio
+- [ ]  Links
+- [ ]  Public posts
+- [ ]  Guides
+- [ ]  Tips
+- [ ]  University-specific experience
+- [ ]  Admissions experience
+- [ ]  Follow verified profiles
+- [ ]  Save posts
+- [ ]  Share posts
+- [ ]  Report content
+- [ ]  Moderation
+## KNOWLEDGE FROM REAL STUDENTS — STRONGER THAN GENERIC SOCIAL
+- [ ]  “I got into X” verified contributor page
+- [ ]  “Ask someone who studies here”
+- [ ]  University-specific student guides
+- [ ]  “What I wish I knew before applying”
+- [ ]  Country-specific applicant guides
+- [ ]  Qualification-specific guides
+- [ ]  Verified Q&A
+- [ ]  Contributor reputation
+- [ ]  Helpful votes
+- [ ]  Expert / Student / Alumni labels
+- [ ]  University affiliation badge
+- [ ]  Clear separation between official information and user experience
+## CURATORS / MENTORS — LATE YEAR
+- [ ]  Mentor profile
+- [ ]  Verified mentor identity
+- [ ]  Verified university affiliation
+- [ ]  Languages
+- [ ]  Countries supported
+- [ ]  Universities supported
+- [ ]  Services offered
+- [ ]  Hourly/session pricing
+- [ ]  Availability
+- [ ]  Booking request
+- [ ]  Calendar
+- [ ]  Reviews
+- [ ]  Ratings
+- [ ]  Completed sessions
+- [ ]  Report mentor
+- [ ]  Platform moderation
+- [ ]  Tutor / mentor search
+- [ ]  Filter by university
+- [ ]  Filter by country
+- [ ]  Filter by language
+- [ ]  Filter by price
+- [ ]  External payment initially to avoid building marketplace payments too early
+- [ ]  Ekho marketplace payments only after proven demand
+## UNIVERSITY-SIDE — ONLY AFTER STUDENT DEMAND
+- [ ]  Claim university profile
+- [ ]  Verified university representative
+- [ ]  Suggest corrections
+- [ ]  Update institution information
+- [ ]  Add official events
+- [ ]  Add open days
+- [ ]  Add scholarships
+- [ ]  Answer verified questions
+- [ ]  University analytics
+- [ ]  Profile traffic
+- [ ]  Country interest
+- [ ]  Program interest
+- [ ]  Saves
+- [ ]  Compare activity
+- [ ]  Qualified student interest
+- [ ]  Sponsored placement with clear disclosure
+- [ ]  Recruitment campaigns with clear disclosure
+## TRUST & VERIFICATION
+- [ ]  Official-source badge
+- [ ]  Ekho Verified data
+- [ ]  Verified Student
+- [ ]  Verified Alumni
+- [ ]  Verified Mentor
+- [ ]  Verified University Representative
+- [ ]  Source history
+- [ ]  Last verified
+- [ ]  Report wrong data
+- [ ]  Correction log
+- [ ]  Clear official-vs-community content distinction
+- [ ]  No anonymous claims presented as facts
+## GROWTH ENGINE
+- [ ]  SEO university pages
+- [ ]  SEO program pages
+- [ ]  SEO country pages
+- [ ]  SEO qualification pages
+- [ ]  SEO requirement pages
+- [ ]  SEO deadline pages
+- [ ]  SEO comparison pages
+- [ ]  SEO free tools
+- [ ]  Shareable pages
+- [ ]  Referral links
+- [ ]  Waitlist/referral system
+- [ ]  University-request voting
+- [ ]  Contributor program
+- [ ]  Verified student contributor program
+- [ ]  Student ambassador program later
+## DATA INFRASTRUCTURE
+- [ ]  Global institution schema
+- [ ]  Program schema
+- [ ]  Requirement schema
+- [ ]  Qualification schema
+- [ ]  Deadline schema
+- [ ]  Financial-aid schema
+- [ ]  Source schema
+- [ ]  Historical-value schema
+- [ ]  Verification schema
+- [ ]  Country education-system schema
+- [ ]  Import pipelines from legal/open datasets
+- [ ]  Duplicate detection
+- [ ]  Source normalization
+- [ ]  Manual admin editor
+- [ ]  Bulk editor
+- [ ]  Verification queue
+- [ ]  Change-review queue
+- [ ]  Data-quality dashboard
+- [ ]  User correction queue
+## ADMIN & OPERATIONS
+- [ ]  Admin dashboard
+- [ ]  Add university
+- [ ]  Edit university
+- [ ]  Add program
+- [ ]  Edit requirements
+- [ ]  Verify data
+- [ ]  Review user reports
+- [ ]  Review contributors
+- [ ]  Verify profiles
+- [ ]  Moderate posts
+- [ ]  Moderate mentors
+- [ ]  Analytics dashboard
+- [ ]  Growth dashboard
+- [ ]  Data freshness dashboard
+## MONETIZATION — KEEP STUDENT CORE FREE
+- [ ]  Free core university database
+- [ ]  Free search
+- [ ]  Free save
+- [ ]  Free compare
+- [ ]  Free basic application management
+- [ ]  University recruitment products later
+- [ ]  Clearly labeled sponsored university placements
+- [ ]  Sponsored open days
+- [ ]  Sponsored scholarships
+- [ ]  Qualified student leads later
+- [ ]  University analytics later
+- [ ]  University profile management later
+- [ ]  B2B admissions-data API later
+- [ ]  Counselor tools later
+- [ ]  Mentor marketplace commission later
+- [ ]  No paywall on basic admissions information
+## DO NOT BUILD IN YEAR 1 UNLESS CORE EXPLODES
+- [ ]  Generic social feed
+- [ ]  Direct messages between everyone
+- [ ]  Followers/following as product goal
+- [ ]  Dating/friend discovery
+- [ ]  Generic student social network
+- [ ]  Clubs marketplace
+- [ ]  Campus social network
+- [ ]  Full LinkedIn-style networking
+- [ ]  University course management
+- [ ]  Learning platform
+- [ ]  Essay-generation AI
+- [ ]  Generic AI chatbot
+- [ ]  Acceptance-probability AI presented as truth
+- [ ]  Expensive LLM infrastructure
+- [ ]  Complex mentor marketplace payments before demand
+- [ ]  Native mobile apps before web product proves itself
+- [ ] ## YEAR-1 PRODUCT ORDER
+- [ ]  University Intelligence
+- [ ]  Search
+- [ ]  University pages
+- [ ]  Map
+- [ ]  Save
+- [ ]  Compare
+- [ ]  Free tools
+- [ ]  Account
+- [ ]  Requirements for Me
+- [ ]  My Applications
+- [ ]  Deadlines
+- [ ]  Live Updates
+- [ ]  Verified student contributors
+- [ ]  Student guides / Q&A
+- [ ]  Mentors/curators discovery
+- [ ]  University-side tools only after meaningful student traffic

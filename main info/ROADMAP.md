@@ -1,0 +1,563 @@
+**12–15 Aug**
+- [x]  Зафиксировать Ekho Fundamentals v1
+- [x]  Разделить фундамент на Fact / Hypothesis / Unknown
+- [ ]  Составить список главных assumptions, которые ещё надо проверить
+- [ ]  Зафиксировать первого конкретного Target User
+- [ ]  Зафиксировать главный Core Job
+- [ ]  Зафиксировать MVP Promise
+- [ ]  Определить главный Aha Moment
+- [ ]  Определить First Value
+- [ ]  Определить один главный end-to-end workflow
+- [ ]  Определить первый use case
+- [ ]  Определить secondary use cases
+- [ ]  Определить первую географию пользователей
+- [ ]  Определить какие admissions systems поддерживает V1
+- [ ]  Определить какие университеты поддерживает V1
+- [ ]  Определить какие программы поддерживает V1
+- [ ]  Определить какие application rounds поддерживает V1
+- [ ]  Зафиксировать MVP anchors
+- [ ]  Разделить функции на Must Have / Later
+- [ ]  Сделать Explicitly Not Building list
+- [ ]  Удалить всё, без чего главный workflow продолжает работать
+- [ ]  Определить минимальный onboarding
+- [ ]  Определить минимальный профиль пользователя
+- [ ]  Решить в какой момент действительно нужна регистрация
+- [ ]  Проверить возможность дать ценность примерно за 30 секунд
+- [ ]  Написать MVP Definition v1
+
+ **15–19 Aug**
+- [ ]  Найти 15–20 реальных applicants
+- [ ]  Найти international applicants
+- [ ]  Найти людей, подающихся сразу в несколько университетов
+- [ ]  Найти людей, подающихся в несколько стран
+- [ ]  Провести минимум 10 user interviews
+- [ ]  Узнать как они сейчас ведут applications
+- [ ]  Узнать какие инструменты используют
+- [ ]  Узнать что хранят в Sheets / Notion / Notes
+- [ ]  Узнать что постоянно проверяют на university websites
+- [ ]  Узнать какие deadlines боятся пропустить
+- [ ]  Узнать где requirements чаще всего непонятны
+- [ ]  Узнать как отслеживают documents
+- [ ]  Узнать как отслеживают tests
+- [ ]  Узнать как отслеживают essays
+- [ ]  Узнать как отслеживают recommendations
+- [ ]  Узнать как отслеживают financial aid
+- [ ]  Узнать где чаще всего ошибаются
+- [ ]  Узнать какие действия повторяют вручную
+- [ ]  Найти repeated pains
+- [ ]  Найти repeated workflows
+- [ ]  Найти текущие workarounds
+- [ ]  Выделить проблемы, которые реально болезненны
+- [ ]  Удалить гипотезы, которые пользователи не подтверждают
+- [ ]  Обновить MVP Definition
+- [ ]  Полностью пройти AdmissionsOS
+- [ ]  Полностью пройти CollegeVine
+- [ ]  Полностью пройти Scoir
+- [ ]  Полностью пройти Common App
+- [ ]  Полностью пройти UCAS
+- [ ]  Проверить BigFuture
+- [ ]  Проверить workflow через Google Sheets
+- [ ]  Проверить workflow через Notion
+- [ ]  Проверить workflow через ChatGPT
+- [ ]  Сравнить onboarding конкурентов
+- [ ]  Сравнить time-to-value
+- [ ]  Сравнить application tracking
+- [ ]  Сравнить university research
+- [ ]  Сравнить requirements
+- [ ]  Сравнить deadlines
+- [ ]  Сравнить financial aid
+- [ ]  Сравнить international coverage
+- [ ]  Сравнить trust/source visibility
+- [ ]  Найти лучшие UX patterns
+- [ ]  Найти самые раздражающие UX patterns
+- [ ]  Найти реальные gaps
+- [ ]  Зафиксировать 3–5 вещей, где Ekho обязан быть объективно лучше
+- [ ]  Проверить, что Ekho не является AdmissionsOS clone
+
+**19–23 Aug**
+- [ ]  Спроектировать Information Architecture
+- [ ]  Определить основные product sections
+- [ ]  Определить navigation
+- [ ]  Определить hierarchy
+- [ ]  Определить University entity
+- [ ]  Определить Program entity
+- [ ]  Определить Application entity
+- [ ]  Определить Requirement entity
+- [ ]  Определить Deadline entity
+- [ ]  Определить Task entity
+- [ ]  Определить Document entity
+- [ ]  Определить Test Score entity
+- [ ]  Определить Essay entity
+- [ ]  Определить Recommendation entity
+- [ ]  Определить Financial Aid entity
+- [ ]  Определить Source entity
+- [ ]  Определить Update/Change entity
+- [ ]  Связать entities между собой
+- [ ]  Определить что является глобальными данными
+- [ ]  Определить что является персональными данными
+- [ ]  Определить что вводит пользователь
+- [ ]  Определить что Ekho получает автоматически
+- [ ]  Определить Unknown state
+- [ ]  Определить Conflicting Data state
+- [ ]  Определить Stale Data state
+- [ ]  Создать Admissions Data Schema
+- [ ]  Создать University Schema
+- [ ]  Создать Program Schema
+- [ ]  Создать Requirements Schema
+- [ ]  Создать Deadline Schema
+- [ ]  Создать Qualifications Schema
+- [ ]  Создать Tests Schema
+- [ ]  Создать Financial Aid Schema
+- [ ]  Создать Source Schema
+- [ ]  Создать Freshness Schema
+- [ ]  Определить hierarchy официальных источников
+- [ ]  Хранить source URL
+- [ ]  Хранить last verified date
+- [ ]  Хранить application cycle
+- [ ]  Определить confidence/verification state
+- [ ]  Определить правила при конфликтующих источниках
+- [ ]  Определить правила устаревших данных
+- [ ]  Определить manual verification workflow
+- [ ]  Собрать данные первых 5 университетов
+- [ ]  Проверить schema на реальных университетах
+- [ ]  Исправить schema
+- [ ]  Собрать первые 20–30 университетов
+- [ ]  Проверить critical fields вручную
+- [ ]  Определить как sources и freshness будут показываться пользователю
+
+ **23–30 Aug**
+- [ ]  Описать полный Core User Journey
+- [ ]  Visitor → Value Proposition
+- [ ]  Value Proposition → Signup
+- [ ]  Signup → Minimal Onboarding
+- [ ]  Onboarding → University Selection
+- [ ]  University Selection → Add Application
+- [ ]  Application → Requirements
+- [ ]  Requirements → Missing Items
+- [ ]  Missing Items → Next Action
+- [ ]  Next Action → Completed Action
+- [ ]  Completed Action → Return
+- [ ]  Продумать empty states
+- [ ]  Продумать loading states
+- [ ]  Продумать error states
+- [ ]  Продумать unknown-data states
+- [ ]  Сделать low-fi Landing
+- [ ]  Сделать low-fi Signup
+- [ ]  Сделать low-fi Onboarding
+- [ ]  Сделать low-fi University Search
+- [ ]  Сделать low-fi University Page
+- [ ]  Сделать low-fi Add Application
+- [ ]  Сделать low-fi My Applications
+- [ ]  Сделать low-fi Application Detail
+- [ ]  Сделать low-fi Requirements
+- [ ]  Сделать low-fi Tasks
+- [ ]  Сделать low-fi Deadlines
+- [ ]  Сделать low-fi Sources
+- [ ]  Сделать low-fi Profile/Settings
+- [ ]  Проверить mobile layouts
+- [ ]  Уменьшить количество navigation levels
+- [ ]  Удалить лишние screens
+- [ ]  Удалить лишние questions
+- [ ]  Удалить лишние clicks
+- [ ]  Проверить один главный action на ключевых экранах
+- [ ]  Собрать clickable prototype
+- [ ]  Собрать полный happy path
+- [ ]  Использовать реальные university data
+- [ ]  Использовать реальные requirements
+- [ ]  Использовать реальные deadlines
+- [ ]  Найти 5 новых applicants для usability test
+- [ ]  Дать prototype без объяснения интерфейса
+- [ ]  Проверить понимают ли они что такое Ekho
+- [ ]  Проверить могут ли найти университет
+- [ ]  Проверить могут ли добавить application
+- [ ]  Проверить понимают ли requirements
+- [ ]  Проверить понимают ли что делать дальше
+- [ ]  Проверить могут ли найти deadline
+- [ ]  Записать misclicks
+- [ ]  Записать вопросы
+- [ ]  Записать непонятные слова
+- [ ]  Записать места, где пользователь останавливается
+- [ ]  Найти лишние шаги
+- [ ]  Исправить critical UX problems
+- [ ]  Провести второй usability test
+- [ ]  Зафиксировать UX MVP
+
+ **30 Aug – 3 Sep**
+- [ ]  Определить Visual Direction
+- [ ]  Зафиксировать typography
+- [ ]  Зафиксировать color system
+- [ ]  Зафиксировать spacing system
+- [ ]  Зафиксировать grid
+- [ ]  Зафиксировать radius
+- [ ]  Зафиксировать borders
+- [ ]  Зафиксировать surfaces
+- [ ]  Зафиксировать shadows
+- [ ]  Зафиксировать iconography
+- [ ]  Определить motion principles
+- [ ]  Сделать button system
+- [ ]  Сделать input system
+- [ ]  Сделать form system
+- [ ]  Сделать card system
+- [ ]  Сделать navigation system
+- [ ]  Сделать status system
+- [ ]  Сделать loading system
+- [ ]  Сделать empty states
+- [ ]  Сделать error states
+- [ ]  Сделать success states
+- [ ]  Сделать responsive rules
+- [ ]  Сделать design tokens
+- [ ]  Сделать минимальную component library
+- [ ]  Сделать high-fidelity MVP screens
+- [ ]  Собрать final interactive prototype
+- [ ]  Проверить visual consistency
+- [ ]  Проверить accessibility basics
+- [ ]  Проверить readability
+- [ ]  Проверить contrast
+- [ ]  Проверить mobile
+
+**2–4 Sep**
+- [ ]  Выбрать финальный tech stack
+- [ ]  Определить frontend architecture
+- [ ]  Определить backend architecture
+- [ ]  Определить database
+- [ ]  Определить authentication
+- [ ]  Определить hosting
+- [ ]  Определить file storage
+- [ ]  Определить analytics
+- [ ]  Определить error monitoring
+- [ ]  Определить email infrastructure
+- [ ]  Определить data ingestion approach
+- [ ]  Определить admin/data correction tools
+- [ ]  Определить development environment
+- [ ]  Определить preview environment
+- [ ]  Определить production environment
+- [ ]  Определить secrets management
+- [ ]  Определить backups
+- [ ]  Разбить MVP на конкретные build tasks
+- [ ]  Расставить зависимости между tasks
+- [ ]  Разделить build tasks на P0 / P1 / P2
+- [ ]  Заморозить scope разработки
+
+ **4–14 Sep**
+- [ ]  Создать production project
+- [ ]  Создать repository
+- [ ]  Настроить deployment
+- [ ]  Настроить database
+- [ ]  Реализовать Auth
+- [ ]  Реализовать User model
+- [ ]  Реализовать Profile
+- [ ]  Реализовать Minimal Onboarding
+- [ ]  Реализовать University model
+- [ ]  Реализовать Program model
+- [ ]  Загрузить первые university data
+- [ ]  Реализовать University Search
+- [ ]  Реализовать University Page
+- [ ]  Реализовать Add Application
+- [ ]  Реализовать Application model
+- [ ]  Реализовать My Applications
+- [ ]  Реализовать Application Detail
+- [ ]  Реализовать Application Status
+- [ ]  Реализовать Requirements
+- [ ]  Реализовать personalized requirement states
+- [ ]  Реализовать Eligible
+- [ ]  Реализовать Satisfied
+- [ ]  Реализовать Missing
+- [ ]  Реализовать Optional
+- [ ]  Реализовать Action Required
+- [ ]  Реализовать Unknown
+- [ ]  Реализовать Deadlines
+- [ ]  Реализовать Tasks
+- [ ]  Реализовать Documents V1
+- [ ]  Реализовать Tests V1
+- [ ]  Реализовать Notes если действительно нужны MVP
+- [ ]  Реализовать Next Action
+- [ ]  Реализовать official sources
+- [ ]  Реализовать last verified
+- [ ]  Реализовать stale/unknown states
+- [ ]  Реализовать persistence
+- [ ]  Реализовать empty states
+- [ ]  Реализовать loading states
+- [ ]  Реализовать error states
+- [ ]  Реализовать responsive layouts
+- [ ]  Реализовать basic mobile version
+- [ ]  Реализовать account management
+- [ ]  Реализовать password reset
+- [ ]  Реализовать basic transactional emails
+- [ ]  Реализовать founder/admin data correction flow
+- [ ]  Развернуть рабочую production-like версию
+- [ ]  Самостоятельно пройти полный workflow от signup до completed action
+- [ ]  Не добавлять новые функции до завершения P0
+
+**до 15 Sep**
+- [ ]  Определить North Star behavior
+- [ ]  Определить Activation
+- [ ]  Определить First Value event
+- [ ]  Определить Signup Complete event
+- [ ]  Определить Onboarding Complete event
+- [ ]  Определить University Viewed event
+- [ ]  Определить Application Added event
+- [ ]  Определить Requirement Viewed event
+- [ ]  Определить Requirement Completed event
+- [ ]  Определить Task Completed event
+- [ ]  Определить Return event
+- [ ]  Определить Time-to-Value
+- [ ]  Определить WAU
+- [ ]  Настроить product analytics
+- [ ]  Настроить signup funnel
+- [ ]  Настроить onboarding funnel
+- [ ]  Настроить activation funnel
+- [ ]  Настроить core workflow events
+- [ ]  Настроить error monitoring
+- [ ]  Сделать простой founder metrics dashboard
+
+ **15–17 Sep**
+- [ ]  Провести Internal Alpha
+- [ ]  Создать несколько test accounts
+- [ ]  Проверить signup
+- [ ]  Проверить login
+- [ ]  Проверить logout
+- [ ]  Проверить password reset
+- [ ]  Проверить onboarding
+- [ ]  Проверить University Search
+- [ ]  Проверить University Page
+- [ ]  Проверить Add Application
+- [ ]  Проверить My Applications
+- [ ]  Проверить Application Detail
+- [ ]  Проверить Requirements
+- [ ]  Проверить Deadlines
+- [ ]  Проверить Tasks
+- [ ]  Проверить Sources
+- [ ]  Проверить persistence
+- [ ]  Проверить analytics events
+- [ ]  Проверить emails
+- [ ]  Проверить mobile
+- [ ]  Проверить разные screen sizes
+- [ ]  Проверить slow connection
+- [ ]  Проверить missing data
+- [ ]  Проверить stale data
+- [ ]  Проверить broken source
+- [ ]  Проверить Unknown
+- [ ]  Исправить все P0 bugs
+- [ ]  Исправить critical P1 bugs
+
+ **17–22 Sep**
+- [ ]  Запустить Closed Beta
+- [ ]  Найти 20–30 реальных applicants
+- [ ]  Создать им реальные accounts
+- [ ]  Не проводить ручной onboarding каждому
+- [ ]  Смотреть Signup → Activation
+- [ ]  Смотреть Time-to-Value
+- [ ]  Смотреть Applications Added
+- [ ]  Смотреть Requirement Views
+- [ ]  Смотреть Completed Actions
+- [ ]  Смотреть повторные посещения
+- [ ]  Смотреть abandoned flows
+- [ ]  Смотреть errors
+- [ ]  Смотреть support questions
+- [ ]  Провести минимум 5 beta user calls
+- [ ]  Спросить что было непонятно
+- [ ]  Спросить что они ожидали увидеть
+- [ ]  Спросить что им всё ещё приходится делать вне Ekho
+- [ ]  Спросить что заставило бы их вернуться завтра
+- [ ]  Найти biggest friction
+- [ ]  Сделать problem ranking
+- [ ]  Исправить top 5 problems
+- [ ]  Не реализовывать автоматически feature requests
+- [ ]  Отличать symptom от реальной проблемы
+
+ **21–25 Sep**
+- [ ]  Проверить retention
+- [ ]  Посмотреть кто вернулся самостоятельно
+- [ ]  Понять почему они вернулись
+- [ ]  Посмотреть кто не вернулся
+- [ ]  Понять почему они не вернулись
+- [ ]  Проверить работает ли Next Action loop
+- [ ]  Проверить есть ли причина держать applications в Ekho
+- [ ]  Проверить заменяет ли Ekho spreadsheet хотя бы для части пользователей
+- [ ]  Проверить добавляют ли пользователи несколько applications
+- [ ]  Проверить возвращаются ли к requirements
+- [ ]  Проверить используют ли tasks
+- [ ]  Проверить используют ли deadlines
+- [ ]  Определить реальные return triggers
+- [ ]  Улучшить core retention loop
+- [ ]  Проверить необходимость notifications
+- [ ]  Проверить гипотезу Live Admissions Updates
+- [ ]  Не добавлять notifications без реального use case
+- [ ]  Провести полный audit university data
+- [ ]  Проверить deadlines
+- [ ]  Проверить requirements
+- [ ]  Проверить qualifications
+- [ ]  Проверить tests
+- [ ]  Проверить international requirements
+- [ ]  Проверить financial aid fields, если они входят в MVP
+- [ ]  Проверить official source URLs
+- [ ]  Проверить last verified
+- [ ]  Проверить application cycle
+- [ ]  Проверить Unknown states
+- [ ]  Проверить stale states
+- [ ]  Проверить personalization rules
+- [ ]  Проверить отсутствие fake certainty
+- [ ]  Реализовать Report Incorrect Data
+- [ ]  Реализовать внутренний correction workflow
+
+**23–27 Sep**
+- [ ]  Провести security basics review
+- [ ]  Проверить auth permissions
+- [ ]  Проверить database permissions
+- [ ]  Проверить environment secrets
+- [ ]  Настроить backups
+- [ ]  Проверить restore procedure
+- [ ]  Настроить production error logging
+- [ ]  Настроить basic abuse protection
+- [ ]  Реализовать account deletion
+- [ ]  Сделать Privacy Policy
+- [ ]  Сделать Terms
+- [ ]  Сделать Contact/Support
+- [ ]  Сделать 404
+- [ ]  Сделать 500 fallback
+- [ ]  Настроить domain
+- [ ]  Настроить HTTPS
+- [ ]  Настроить production email domain
+- [ ]  Настроить SEO metadata
+- [ ]  Сделать favicon
+- [ ]  Сделать social preview
+- [ ]  Оптимизировать basic performance
+- [ ]  Сделать Landing Page
+- [ ]  Сделать ясный Hero
+- [ ]  Сделать понятный one-line value proposition
+- [ ]  Сделать один primary CTA
+- [ ]  Показать настоящий product UI
+- [ ]  Показать главный workflow
+- [ ]  Показать ключевую differentiation
+- [ ]  Показать sources/trust
+- [ ]  Показать international positioning
+- [ ]  Добавить FAQ только по реальным вопросам
+- [ ]  Добавить signup
+- [ ]  Проверить mobile landing
+- [ ]  Настроить landing analytics
+- [ ]  Не перегружать landing лишними sections
+
+**17–28 Sep параллельно**
+- [ ]  Определить Initial Acquisition Channel
+- [ ]  Найти где реально находятся applicants
+- [ ]  Собрать список relevant Reddit communities
+- [ ]  Собрать список Discord communities
+- [ ]  Собрать список applicant groups
+- [ ]  Собрать список international student communities
+- [ ]  Собрать список school communities
+- [ ]  Найти небольших creators вокруг admissions
+- [ ]  Найти student creators
+- [ ]  Найти counselors, которым можно показать продукт ради feedback/distribution
+- [ ]  Собрать первые 100 потенциальных early users
+- [ ]  Начать personal outreach до публичного запуска
+- [ ]  Создать waitlist
+- [ ]  Собрать emails
+- [ ]  Сделать простой referral capture
+- [ ]  Сделать короткий demo video
+- [ ]  Сделать product screenshots
+- [ ]  Сделать короткий GIF/video главного workflow
+- [ ]  Подготовить founder story
+- [ ]  Подготовить launch story
+- [ ]  Подготовить несколько distribution experiments
+- [ ]  Определить метрику каждого distribution experiment
+- [ ]  Не делать Product Hunt главным источником пользователей
+
+**25–28 Sep**
+- [ ]  Провести Beta #2 с новыми пользователями
+- [ ]  Найти новых людей, не участвовавших раньше
+- [ ]  Не объяснять продукт
+- [ ]  Измерить Signup
+- [ ]  Измерить Activation
+- [ ]  Измерить Time-to-Value
+- [ ]  Измерить Applications Added
+- [ ]  Измерить Core Action
+- [ ]  Измерить errors
+- [ ]  Провести ещё 5 usability sessions
+- [ ]  Исправить только launch blockers
+- [ ]  Проверить что core workflow работает end-to-end
+- [ ]  Проверить что большинство пользователей понимают продукт самостоятельно
+- [ ]  Проверить что хотя бы часть пользователей возвращается самостоятельно
+- [ ]  Проверить что реальные applicants хранят applications в Ekho
+- [ ]  Проверить что critical data имеет source
+- [ ]  Проверить что critical data имеет last verified date
+- [ ]  Проверить что Unknown отображается честно
+- [ ]  Проверить mobile usability
+- [ ]  Проверить analytics
+- [ ]  Проверить monitoring
+- [ ]  Проверить support flow
+- [ ]  Проверить production stability
+- [ ]  Удалить оставшийся лишний scope вместо переноса запуска
+
+**28–30 Sep**
+- [ ]  Зафиксировать финальный logo
+- [ ]  Зафиксировать favicon
+- [ ]  Зафиксировать Landing
+- [ ]  Сделать final screenshots
+- [ ]  Сделать final demo video
+- [ ]  Сделать короткий product walkthrough
+- [ ]  Подготовить launch copy
+- [ ]  Подготовить Reddit posts
+- [ ]  Подготовить community posts
+- [ ]  Подготовить personal outreach message
+- [ ]  Подготовить waitlist email
+- [ ]  Подготовить beta-user email
+- [ ]  Подготовить social profiles
+- [ ]  Подготовить feedback form
+- [ ]  Подготовить bug report form
+- [ ]  Подготовить launch distribution list
+- [ ]  Подготовить список людей для personal outreach
+- [ ]  Подготовить список communities
+- [ ]  Подготовить launch metrics dashboard
+- [ ]  Заморозить новые features
+- [ ]  Заморозить redesign
+- [ ]  Не менять architecture без P0 причины
+- [ ]  Провести полный production smoke test
+- [ ]  Проверить Desktop
+- [ ]  Проверить Mobile
+- [ ]  Проверить Chrome
+- [ ]  Проверить Safari
+- [ ]  Проверить Edge
+- [ ]  Проверить Signup
+- [ ]  Проверить Login
+- [ ]  Проверить Password Reset
+- [ ]  Проверить Core Workflow
+- [ ]  Проверить University Data
+- [ ]  Проверить Sources
+- [ ]  Проверить Analytics
+- [ ]  Проверить Emails
+- [ ]  Проверить Monitoring
+- [ ]  Проверить Backups
+- [ ]  Проверить Production Database
+- [ ]  Провести final data audit
+- [ ]  Исправить P0
+- [ ]  Исправить оставшиеся critical P1
+- [ ]  Не трогать косметические мелочи перед запуском
+
+**1 Oct — PUBLIC LAUNCH**
+- [ ]  Открыть public signup
+- [ ]  Отправить запуск waitlist
+- [ ]  Отправить запуск beta users
+- [ ]  Начать personal outreach
+- [ ]  Опубликовать продукт в relevant communities
+- [ ]  Опубликовать launch content
+- [ ]  Отправить продукт небольшим relevant creators
+- [ ]  Следить за signup funnel
+- [ ]  Следить за Activation
+- [ ]  Следить за Time-to-Value
+- [ ]  Следить за Applications Added
+- [ ]  Следить за Core Actions
+- [ ]  Следить за Returning Users
+- [ ]  Следить за errors
+- [ ]  Следить за data reports
+- [ ]  Разговаривать с новыми пользователями
+- [ ]  Исправлять P0 сразу
+- [ ]  Записывать repeated complaints
+- [ ]  Не реагировать на единичные feature requests
+- [ ]  Не оценивать запуск по просмотрам
+- [ ]  Не оценивать запуск по лайкам
+- [ ]  Смотреть Activated Applicants
+- [ ]  Смотреть Applications Managed in Ekho
+- [ ]  Смотреть Returning Applicants
+- [ ]  Зафиксировать baseline metrics
+- [ ]  Составить список главных проблем после запуска
+- [ ]  Начать следующую итерацию Ekho на основе поведения реальных пользователей

@@ -1,0 +1,45 @@
+### FACT — уже можно считать объективной базой
+- **Existing alternatives:** Common App, UCAS, university websites, Google Sheets, Notion, calendars, ChatGPT и admissions-продукты реально существуют.
+- **Admissions data fragmented:** deadlines, requirements, aid, документы и policies находятся в разных источниках.
+- **Official sources exist:** университеты и admissions-системы публикуют требования и дедлайны, значит Ekho технически может строить source-grounded data layer.
+- **Application process has deadlines and changing information:** это объективная характеристика процесса поступления.
+- **Applicant manages multiple information types:** universities, applications, deadlines, requirements, documents, tests, aid и т.д.
+### HYPOTHESIS — наша текущая ставка, которую надо доказать
+
+- **Problem:** applicant теряется между сайтами, таблицами, дедлайнами и требованиями настолько, что ему нужен отдельный продукт.
+- **Target user:** ambitious international applicant, подающийся в несколько университетов/стран.
+- **Core job:** «Помоги мне организовать поступление и всегда понимать, что делать дальше».
+- **Value proposition:** один простой workspace лучше набора tabs + spreadsheets + calendars.
+- **Positioning:** simplest university admissions workspace.
+- **Differentiation:** extreme simplicity + global coverage + reliable/current data + personalization.
+- **Wedge:** application management / personalized requirements — лучший первый вход.
+- **Retention loop:** deadlines → tasks → progress → updates → возвращение в Ekho.
+- **Data advantage:** структурированная admissions-база со временем станет преимуществом.
+- **Distribution:** free tools + applicant communities + organic sharing смогут дешёво приводить пользователей.
+- **Monetization:** пользователи заплатят за monitoring, personalization, financial-aid intelligence и automation.
+- **Market expansion:** после international applicants продукт сможет нормально расширяться на массовый admissions market.
+- **Defensibility / moat:** данные + freshness + personalization + accumulated application structure смогут создать защиту.
+- **Trust:** source visibility и freshness будут заметно влиять на выбор Ekho пользователем.
+- **North Star:** количество реально управляемых applications / active applicants будет хорошей основной метрикой.
+- **10× vision:** Ekho способен стать стандартным инструментом категории «поступаешь → используешь Ekho».
+### UNKNOWN — сейчас реально не знаем
+- Какая **№1 боль** applicants самая сильная.
+- Какой **первый сегмент** лучший.
+- Какой **wedge** сильнее всего цепляет.
+- Какая функция создаёт настоящий **Aha Moment**.
+- Что заставляет человека вернуться через день/неделю.
+- Готов ли человек полностью отказаться от spreadsheet.
+- Насколько часто пользователям реально нужны live updates.
+- Сколько университетов необходимо для полезного MVP.
+- Какие страны запускать первыми.
+- Насколько дорого поддерживать данные актуальными.
+- Какие данные можно reliably автоматизировать.
+- Какой acquisition channel будет работать лучше всего.
+- Работают ли free tools как acquisition.
+- Есть ли organic/referral loop.
+- За что конкретно люди готовы платить.
+- Какая цена работает.
+- Какой retention будет после application season.
+- Может ли Ekho иметь сильный moat или это легко копируется.
+- Реальный размер reachable market.
+- Есть ли вообще достаточно сильный demand для большого standalone продукта.
